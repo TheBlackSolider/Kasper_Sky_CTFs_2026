@@ -1,0 +1,25 @@
+Chall1 --> Cipher Is Not A Crypto Easy
+
+You found this message in Batman case and it was sent by Bane can u read it ?
+$W?R{YPO#?nspq$}_uq$tnqn@N"oQs"#pr}u!sA
+
+
+
+
+
+Chall2 --> Find The Key Hard
+
+While analysing malware traffic, you find an encrypted payload being sent to a C2 server. The malware author used a simple XOR cipher The Key is the Place that You are belong to it right now 
+
+YsxzFdy3v?9292>?3V?<<XVv;=<X9?aUv<xaBuj
+
+Flag Format FlagY{Key_Flag}
+
+
+
+
+
+Chall3 --> Pure Math Hard
+
+Did u know this fact Math is the father of all Computers but Never Mind u already know it so try to solve it if u can 
+

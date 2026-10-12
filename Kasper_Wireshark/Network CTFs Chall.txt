@@ -1,0 +1,78 @@
+Chall1 --> Discover The Clients Easy
+
+A host on the internal network generates all the traffic in this capture. Before any data can flow, the machine first needs to know the MAC address of the gateway.
+What is the IP address of the client machine that initiates all the traffic in this pcap? 
+
+Flag Format FlagY{0.0.0.0}
+
+
+
+
+Chall2 --> Who Is The Knocks Easy
+
+Immediately after the ARP exchange, the client performs a DNS query to resolve a website before making any TCP connection. 
+What is the Third domain name the client attempted to resolve via DNS? 
+
+Flag Format FlagY{example.com}
+
+
+
+
+
+Chall3 --> Know Your Enemy Medium
+
+During the HTTP browsing session to www.offensive-security.com, the client sends a standard GET request that includes metadata about the browser and operating system.
+What is the server that appears in the response ?
+
+Flag Format FlagY{Name of the server OS}
+
+
+
+
+Chall4 --> Try Harder Medium
+
+When the client connects to www.offensive-security.com (208.88.120.8) on port 80, it performs a standard TCP three-way handshake before sending any HTTP data. 
+What is the Source MAC Address ?
+
+Flag Format FlagY{aa:bb:cc:dd:ee:ff}
+
+
+
+
+
+Chall5 --> Ping Is The Way Medium
+
+At some point in the capture, the client sends multiple ICMP Echo Requests to a well-known internet service. Some hosts respond, and some do not - which tells you about firewall rules or host reachability.
+The client pings two different IP addresses. One responds and one does not. What is the IP address that DOES respond to the ping? What is the TTL value in the reply? 
+
+Flag Format FlagY{IP_ttl}
+
+
+
+
+Chall6 --> Where Is The Truth Hard
+
+Late in the capture, the client establishes an FTP session with a server at 91.189.88.40 (ftp.ubuntu.com). FTP is a legacy protocol that transmits credentials in plaintext - making it trivially sniffable.
+What are the FTP username and password submitted by the client?
+
+Flag Format FlagY{user:pass}
+
+
+
+ 
+Chall8 --> Close Your Mouth Hard
+
+Across the entire capture, the client communicated with many external servers. One external IP received and sent by far the most data - understanding traffic volume is critical for identifying C2 beaconing, data exfiltration, or just heavy CDN usage. 
+Which external IP address exchanged the most total bytes with the client (10.0.0.132)?
+
+Flag Format FlagY{0.0.0.0}
+
+
+
+
+
+
+
+
+
+

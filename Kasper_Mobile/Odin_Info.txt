@@ -1,0 +1,4 @@
+Name: Odin
+
+Desc: Small app, short temper. Say the magic word.........:)
+
